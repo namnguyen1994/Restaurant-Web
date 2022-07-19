@@ -1,0 +1,147 @@
+:is(.title-below-right,.title-above,.title-below-left,.title-above-center) :is(.qodef-m-subtitle,.qodef-m-title),.bdt-sub-title h4{
+    position: relative;
+    padding-bottom: 8px;
+}
+:is(.title-below-right,.title-above,.title-below-left,.title-above-center)  :is(.qodef-m-subtitle,.qodef-m-title)::after,.bdt-sub-title h4::after
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.qodef-e-mark{
+    display:none;
+}
+.title-above .qodef-m-subtitle::after,.bdt-sub-title h4::after{
+    background: url("../../images/pattern-title.svg") no-repeat bottom left ;
+}
+.title-below-left .qodef-m-title::after{
+    background: url("../../images/pattern-title.svg") no-repeat bottom right ;
+    transform: scaleX(-1);
+}
+.title-below-right .qodef-m-title::after{
+    background: url("../../images/pattern-title.svg") no-repeat bottom right ;
+}
+.title-above .qodef-m-subtitle{
+    position: relative;
+}
+.title-above-center .qodef-m-subtitle::after{
+    background: url("../../images/pattern-title.svg") no-repeat bottom center ;
+}
+
+.bdt-prime-slider-skin-isolate .bdt-slideshow-item{
+    margin: 0 !important;
+}
+.qodef-qi-team-member:hover .qodef-m-inner .qodef-m-content .qodef-m-title{
+    color: var(--color-theme-primary);
+    transition: 0.5s all ease-in-out;
+}
+
+.qodef-addons-blog-list.qodef-item-layout--boxed .qodef-e-inner , .qodef-addons-blog-slider.qodef-item-layout--boxed .qodef-e-inner{
+    background: transparent;
+}
+
+.qodef-qi-interactive-banner .qodef-m-title{
+    opacity: 0 ;
+    transition: 0.5s all ease-in-out;
+}
+.qodef-qi-interactive-banner:hover .qodef-m-title{
+    opacity: 1;
+}
+.qodef-qi-interactive-banner .qodef-m-image img{
+    border: 1px solid transparent;
+}
+.qodef-qi-interactive-banner .qodef-m-image img{
+    border: 1px solid var(--color-theme-primary);
+}
+.qodef-qi-interactive-banner:hover .qodef-m-image img{
+    background: var(--color-theme-black);
+    opacity: 0.4;
+    border: 1px solid var(--color-theme-primary);
+    transition: 0.5s all ease-in-out;
+}
+
+.nav-links .page-numbers:hover{
+    border: 1px solid var(--color-theme-primary);
+}
+
+.nav-links .current{
+    border: 1px solid var(--color-theme-primary);
+}
+
+.rotate{
+    transform: rotate(270deg);
+}
+.bdt-prime-slider-skin-isolate .bdt-slideshow-item.bdt-transition-active .frist-word:before {
+    content:none;
+}
+
+.qodef-qi-team-member{
+    position: relative;
+}
+
+.qodef-qi-team-member .qodef-m-social-icons{
+    position: absolute;
+    display: block;
+    top: 52%;
+    left: 38%;
+    opacity: 0;
+}
+
+.qodef-qi-team-member .qodef-m-social-icons svg{
+    font-size: 24px;
+    color: var(--color-theme-white);
+    transition: all 0.5s ease-in-out;
+}
+
+.qodef-qi-team-member .qodef-m-social-icons .qodef-e-social-icon:hover svg{
+    color: var(--color-theme-primary);
+}
+
+.qodef-qi-team-member:hover .qodef-m-social-icons{
+    opacity: 1;
+}
+
+.qodef-qi-team-member:hover .qodef-m-media-image{
+    background-color: var(--global-body-bgcolor);
+    opacity: 0.5;
+}
+.qodef-qi-team-member .qodef-m-media-image img{
+    border: 1px solid var(--color-theme-primary);
+}
+
+.qodef-qi-team-member:hover .qodef-m-media-image{
+    transition: all 0.5s ease-in-out;
+}
+.bdt-sub-title {
+    position: relative;
+}
+.qodef-e-mark{
+    display:none;
+}
+.bdt-slide-btn-icon{
+    display: none;
+}
+
+.qodef-qi-image-slider .qodef-e-inner img{
+    border: 1px solid var(--color-theme-primary);
+}
+.qodef-text--copy{
+    display: none;
+}
+.qodef-qi-faq .ui-state-active{
+    border-bottom: none !important;
+    border-top: 1px solid var(--color-theme-primary) !important;
+    border-left: 1px solid var(--color-theme-primary)!important;
+    border-right: 1px solid var(--color-theme-primary)!important;
+}
+.qodef-qi-faq  .qodef-e-content {
+    border-left: 1px solid var(--color-theme-primary)!important;
+    border-right: 1px solid var(--color-theme-primary)!important;
+    border-bottom: 1px solid var(--color-theme-primary)!important;
+    border-top: none;
+}
+

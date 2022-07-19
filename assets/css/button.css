@@ -1,0 +1,203 @@
+
+.geritcht-btn-container {
+    vertical-align: middle;
+}
+
+.geritcht-button ,
+.comment-respond .form-submit .submit,
+a.geritcht-button,
+button.geritcht-button,
+.geritcht-button ,
+.elementor a.geritcht-button,
+.rs-button,
+a.rs-button,
+.contact-form-button,
+a.qodef-m-button ,
+.qodef-qi-button,
+.mail-btn {  
+	color: var(--global-body-bgcolor) ;
+	font-size: var(	--font-size-body);
+    font-family: var(--highlight-font-family);
+    letter-spacing: var(--font-letter-spacing-body);
+	font-weight:var(--font-weight-bold) ;
+    line-height: var(--font-line-height-body);
+	background-color: var(--color-theme-primary);
+    border-radius: var(--border-radius);
+    padding: 8px 32px; 
+    position: relative;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid transparent;
+    cursor:pointer; 
+	overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out; 
+}
+
+.geritcht-button:hover,
+.comment-respond .form-submit .submit:hover,
+a.geritcht-button:hover ,
+button.geritcht-button:hover,
+.geritcht-button:hover,
+.rs-button:hover,
+.contact-form-button:hover,
+a.qodef-m-button:hover,
+.qodef-qi-button:hover,
+.mail-btn:hover,
+.bdt-slide-btn:hover {	
+	background: var(--global-body-bgcolor);
+	color: var(--color-theme-primary) ;
+    border: 1px solid var(--color-theme-primary) ;
+}
+
+button:hover,
+button:focus {
+    outline: none;
+}
+
+.geritcht-button .text-btn{
+    margin-right: 10px;
+    position: relative; 
+}
+
+.geritcht-button.geritcht-button-link,
+a.geritcht-button.geritcht-button-link{
+    background: transparent;
+    font-size: var(--font-size-body);
+    color: var(--color-theme-primary);
+    font-weight: var(--font-weight-bold);
+    border: none;
+    padding: 0; 
+    box-shadow: none; 
+    letter-spacing: var(--letter-spacing-two);
+}
+
+.geritcht-button.geritcht-button-link::before{
+    content: "";
+    font-weight: 900;
+    position: absolute;
+    left: 0px;
+    background: var(--color-theme-primary);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+	height: 2px;
+	width: 0px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.geritcht-button.geritcht-button-link:hover::before{
+    width: 16px;
+}
+
+a.geritcht-button.geritcht-button-link:hover {
+    padding-left: 25px;
+}
+
+.geritcht-button .geritcht-icon-right {
+    padding-left: 5px;
+}
+
+.geritcht-button.geritcht-button-link:hover{
+	background: transparent;
+	color: var(--global-font-title);
+}
+
+.geritcht-button.geritcht-button-link:hover span.main{
+	background: var(--color-theme-secondary);
+}
+
+.geritcht-button.geritcht-button-link{
+    color: var(--color-theme-primary);
+}
+
+.geritcht-button span.main,
+.rs-button span.main,
+.contact-form-button span.main{
+    width: 6px;
+    height: 6px;
+    background-color: var(--color-theme-secondary);
+    display: inline-block;
+	z-index: 1;	
+}
+
+.geritcht-button:hover span.main,
+.rs-button:hover span.main,
+.contact-form-button:hover span.main{
+	background: var(--color-theme-white);
+}
+
+.geritcht-button.geritcht-button-link:hover span.text-btn{color: var(--global-font-title);}
+
+.button-link i {
+	font-size: var(--font-size-body);
+	margin-left: 5px;
+}
+
+.qodef-m-button .qodef-m-text{
+    transition: none;
+}
+
+.qodef-qi-button .qodef-m-text{
+    transition: none;
+}
+
+.qodef-e-read-more .qodef-qi-button .qodef-m-text{
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.qodef-m-text{
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.qodef-e-read-more .qodef-qi-button{
+    color: var(--color-theme-primary) !important;
+    background: transparent !important;
+    border: 0 !important;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.qodef-e-read-more .qodef-qi-button:hover > .qodef-m-text{
+	padding-left: 24px;
+}
+
+.qodef-e-read-more .qodef-qi-button > .qodef-m-text::before{
+	content: "";
+    font-weight: 900;
+    position: absolute;
+    left: 0px;
+    background: var(--color-theme-primary);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+	height: 2px;
+	width: 0px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.qodef-e-read-more .qodef-qi-button:hover > .qodef-m-text::before{
+	width: 16px;
+}

@@ -1,0 +1,1553 @@
+# Copyright (C) 2021 Geritcht Design
+# This file is distributed under the same license as the Geritcht Design package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Geritcht Design\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: geritcht\n"
+"Report-Msgid-Bugs-To: Geritcht Design\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../geritcht/comments.php:41, ../geritcht/template-parts/content/entry_content.php:32, ../geritcht/template-parts/content/entry_taxonomies.php:27
+msgid " Comments"
+msgstr ""
+
+#: ../geritcht/comments.php:39, ../geritcht/template-parts/content/entry_content.php:30, ../geritcht/template-parts/content/entry_taxonomies.php:25
+msgid " Comment"
+msgstr ""
+
+#: ../geritcht/comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: ../geritcht/comments.php:58, ../geritcht/inc/Actions/Component.php:80
+msgid "Post Comment"
+msgstr ""
+
+#: ../geritcht/comments.php:59
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+
+#: ../geritcht/header.php:85, ../geritcht/header.php:80
+msgid "loader"
+msgstr ""
+
+#: ../geritcht/header.php:98
+msgid "Skip to content"
+msgstr ""
+
+#: ../geritcht/searchform.php:15
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: ../geritcht/sidebar.php:19
+msgid "Asides"
+msgstr ""
+
+#. translators: 1: required WP version number, 2: required PHP version number, 3: available WP version number, 4: available PHP version number
+#: ../geritcht/inc/back-compat.php:25
+msgid "Geritcht Design requires at least WordPress version %1$s and PHP version %2$s. You are running versions %3$s and %3$s respectively. Please update and try again."
+msgstr ""
+
+#. translators: 1: required WP version number, 2: available WP version number
+#: ../geritcht/inc/back-compat.php:30
+msgid "Geritcht Design requires at least WordPress version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#. translators: 1: required PHP version number, 2: available PHP version number
+#: ../geritcht/inc/back-compat.php:35
+msgid "Geritcht Design requires at least PHP version %1$s. You are running version %2$s. Please update and try again."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:346
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:347
+msgid "Install Plugins"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:349
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:351
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:352
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:353
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:359
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:365
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:371
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:377
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:383
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:389
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:394
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:399
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:404
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:405, ../geritcht/inc/class-tgm-plugin-activation.php:924, ../geritcht/inc/class-tgm-plugin-activation.php:2630, ../geritcht/inc/class-tgm-plugin-activation.php:3677
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:406, ../geritcht/inc/class-tgm-plugin-activation.php:3256
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:407, ../geritcht/inc/class-tgm-plugin-activation.php:3049
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:409
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:411
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:413
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:414
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:415
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:416
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:619
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:620
+msgid "Update Required"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:1034
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:1034, ../geritcht/inc/class-tgm-plugin-activation.php:1031
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:1031
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:1218, ../geritcht/inc/class-tgm-plugin-activation.php:3045
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2079
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2370
+msgid "Required"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2373
+msgid "Recommended"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2389
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2392
+msgid "External Source"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2395
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2412
+msgid "Not Installed"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2418
+msgid "Active"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2416
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2430
+msgid "Update recommended"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2427
+msgid "Requires Update"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2424
+msgid "Required Update not Available"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2439
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#. translators: 1: number of plugins.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2485
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2489
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2493
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2497
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2579
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2587
+msgid "Installed version:"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2595
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2607
+msgid "Available version:"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2630
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2644
+msgid "Plugin"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2645
+msgid "Source"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2646
+msgid "Type"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2650
+msgid "Version"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2651
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2705
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2711
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2700
+msgid "Install %2$s"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2781
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2814
+msgid "Install"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2820
+msgid "Update"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2823
+msgid "Activate"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2856
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2854
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2899
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:2897
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3005
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3031
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3255
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3598
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3600
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3612
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3614
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3614, ../geritcht/inc/class-tgm-plugin-activation.php:3606
+msgid "Show Details"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3614, ../geritcht/inc/class-tgm-plugin-activation.php:3606
+msgid "Hide Details"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3615
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3617
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3604
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3606
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3607
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3609
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../geritcht/inc/class-tgm-plugin-activation.php:3595
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../geritcht/inc/import.php:6
+msgid "All Content"
+msgstr ""
+
+#: ../geritcht/inc/import.php:18
+msgid "DEMO IMPORT REQUIREMENTS: Memory Limit of 128 MB and max execution time (php time limit) of 300 seconds. "
+msgstr ""
+
+#: ../geritcht/inc/import.php:18
+msgid "Based on your INTERNET SPEED it could take 5 to 25 minutes. "
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../geritcht/inc/Template_Tags.php:54
+msgid "The theme templating component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: template tag name
+#: ../geritcht/inc/Template_Tags.php:81
+msgid "The template tag %s does not exist."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../geritcht/inc/Template_Tags.php:110
+msgid "The template tag method %1$s registered by theme component %2$s must either be a callable or an array."
+msgstr ""
+
+#. translators: 1: template tag method name, 2: component class name
+#: ../geritcht/inc/Template_Tags.php:121
+msgid "The template tag method %1$s registered by theme component %2$s conflicts with an already registered template tag of the same name."
+msgstr ""
+
+#. translators: 1: classname/type of the variable, 2: interface name
+#: ../geritcht/inc/Theme.php:57
+msgid "The theme component %1$s does not implement the %2$s interface."
+msgstr ""
+
+#. translators: %s: slug
+#: ../geritcht/inc/Theme.php:120
+msgid "No theme component with the slug %s exists."
+msgstr ""
+
+#: ../geritcht/inc/Accessibility/Component.php:66
+msgid "Expand child menu"
+msgstr ""
+
+#: ../geritcht/inc/Accessibility/Component.php:67
+msgid "Collapse child menu"
+msgstr ""
+
+#: ../geritcht/inc/Actions/Component.php:57
+msgid "Read More"
+msgstr ""
+
+#: ../geritcht/inc/Actions/Component.php:91
+msgid "Reply"
+msgstr ""
+
+#: ../geritcht/inc/Comments/Component.php:151
+msgid "New comment(s)"
+msgstr ""
+
+#: ../geritcht/inc/Comments/Component.php:196
+msgid "(Edit)"
+msgstr ""
+
+#: ../geritcht/inc/Comments/Component.php:225
+msgid "Edit"
+msgstr ""
+
+#: ../geritcht/inc/Comments/Component.php:233
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:179
+msgid "%s"
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:217
+msgid "geritcht-bg-over black"
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:414
+msgid "Oops! That page can not be found."
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:408, ../geritcht/template-parts/content/page_header.php:22
+msgid "Nothing Found"
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:406
+msgid "Search Results for:"
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:457
+msgid "banner"
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:465, ../geritcht/template-parts/breadcrumb/breadcrumb.php:18
+msgid "Home"
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:549
+msgid "Error 404"
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:547
+msgid "Articles posted by : "
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:543
+msgid "Posts tagged"
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:485
+msgid "Search results for : "
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:483
+msgid "Archive by category : "
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:479
+msgid "Blogs"
+msgstr ""
+
+#: ../geritcht/inc/Common/Component.php:553
+msgid "Page"
+msgstr ""
+
+#: ../geritcht/inc/Customizer/Component.php:78
+msgid "Theme Options"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:65, ../geritcht/inc/Nav_Menus/Component.php:67
+msgid "Primary"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:70
+msgid "Secondary"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:75
+msgid "Red"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:80
+msgid "Green"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:85
+msgid "Blue"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:90
+msgid "Yellow"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:95
+msgid "Black"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:100
+msgid "Grey"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:105
+msgid "White"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:110
+msgid "Dusty daylight"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:115
+msgid "Dusty sun"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:132
+msgid "Small"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:133
+msgid "S"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:138
+msgid "Medium"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:139
+msgid "M"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:144
+msgid "Large"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:145
+msgid "L"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:150
+msgid "Larger"
+msgstr ""
+
+#: ../geritcht/inc/Editor/Component.php:151
+msgid "XL"
+msgstr ""
+
+#: ../geritcht/inc/Footer/Component.php:93
+msgid "text-left"
+msgstr ""
+
+#: ../geritcht/inc/Footer/Component.php:94
+msgid "text-right"
+msgstr ""
+
+#: ../geritcht/inc/Footer/Component.php:95
+msgid "text-center"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Component.php:59, ../geritcht/inc/Redux_Framework/Component.php:60
+msgid "Geritcht Design"
+msgstr ""
+
+#: ../geritcht/inc/Sidebars/Component.php:76
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../geritcht/inc/Sidebars/Component.php:78
+msgid "Add widgets here."
+msgstr ""
+
+#. translators: %s: stylesheet handle
+#: ../geritcht/inc/Styles/Component.php:234
+msgid "Invalid theme stylesheet handle: %s"
+msgstr ""
+
+#: ../geritcht/inc/TGM/Component.php:54
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../geritcht/inc/TGM/Component.php:59
+msgid "Elementor"
+msgstr ""
+
+#: ../geritcht/inc/TGM/Component.php:64
+msgid "Mailchimp"
+msgstr ""
+
+#: ../geritcht/inc/TGM/Component.php:69
+msgid "Qi Addons For Elementor"
+msgstr ""
+
+#: ../geritcht/inc/TGM/Component.php:74
+msgid "Prime Slider"
+msgstr ""
+
+#: ../geritcht/inc/TGM/Component.php:79
+msgid "Redux Framework"
+msgstr ""
+
+#: ../geritcht/inc/TGM/Component.php:84
+msgid "One Click Demo Import"
+msgstr ""
+
+#: ../geritcht/template-parts/content/entry-attachment.php:33
+msgid "Previous:"
+msgstr ""
+
+#: ../geritcht/template-parts/content/entry-attachment.php:43
+msgid "Next:"
+msgstr ""
+
+#: ../geritcht/template-parts/content/entry-attachment.php:49
+msgid "Post navigation"
+msgstr ""
+
+#: ../geritcht/template-parts/content/entry.php:29, ../geritcht/template-parts/content/entry_page.php:20
+msgid "Pages:"
+msgstr ""
+
+#: ../geritcht/template-parts/content/entry_content.php:51
+msgid "share :"
+msgstr ""
+
+#: ../geritcht/template-parts/content/entry_meta.php:62
+msgid "Posted by : "
+msgstr ""
+
+#. translators: %s: post author
+#: ../geritcht/template-parts/content/entry_meta.php:64
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: %s: post author
+#: ../geritcht/template-parts/content/entry_meta.php:67
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../geritcht/template-parts/content/entry_meta.php:89
+msgctxt "post parent"
+msgid "In %s"
+msgstr ""
+
+#. translators: %s: post parent title
+#: ../geritcht/template-parts/content/entry_meta.php:92
+msgctxt "post parent"
+msgid "in %s"
+msgstr ""
+
+#: ../geritcht/template-parts/content/error-404.php:30, ../geritcht/template-parts/content/error-404.php:24, ../geritcht/inc/Redux_Framework/Options/FourZeroFour.php:24
+msgid "404"
+msgstr ""
+
+#: ../geritcht/template-parts/content/error-404.php:42, ../geritcht/inc/Redux_Framework/Options/FourZeroFour.php:44
+msgid "Oops! This Page is Not Found."
+msgstr ""
+
+#: ../geritcht/template-parts/content/error-404.php:53, ../geritcht/inc/Redux_Framework/Options/FourZeroFour.php:50
+msgid "The requested page does not exist."
+msgstr ""
+
+#: ../geritcht/template-parts/content/error-offline.php:14
+msgid "Oops! It looks like you&#8217;re offline."
+msgstr ""
+
+#: ../geritcht/template-parts/content/error.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../geritcht/template-parts/content/error.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../geritcht/template-parts/content/error.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. translators: %s: search query
+#: ../geritcht/template-parts/content/page_header.php:41
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../geritcht/template-parts/content/page_header.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../geritcht/template-parts/footer/info.php:43, ../geritcht/template-parts/footer/info.php:26
+msgid "https://iqonic.design/"
+msgstr ""
+
+#: ../geritcht/template-parts/footer/info.php:43, ../geritcht/template-parts/footer/info.php:26
+msgid "© 2021"
+msgstr ""
+
+#: ../geritcht/template-parts/footer/info.php:43, ../geritcht/template-parts/footer/info.php:26
+msgid " geritcht "
+msgstr ""
+
+#: ../geritcht/template-parts/footer/info.php:43, ../geritcht/template-parts/footer/info.php:26
+msgid ". All Rights Reserved."
+msgstr ""
+
+#: ../geritcht/template-parts/header/navigation-mobile.php:46, ../geritcht/template-parts/header/navigation-mobile.php:40, ../geritcht/template-parts/header/navigation-mobile.php:34, ../geritcht/template-parts/header/navigation.php:48, ../geritcht/template-parts/header/navigation.php:42, ../geritcht/template-parts/header/navigation.php:36, ../geritcht/inc/Redux_Framework/Options/Logo.php:44
+msgid "geritcht"
+msgstr ""
+
+#: ../geritcht/template-parts/header/navigation.php:14
+msgid "Main menu"
+msgstr ""
+
+#: ../geritcht/template-parts/header/navigation.php:100, ../geritcht/template-parts/header/navigation.php:78, ../geritcht/inc/Redux_Framework/Options/Header.php:294
+msgid "Search"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:52
+msgid "Page Banner Setting"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:55
+msgid "This section contains options for Page Breadcrumbs Area."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:62
+msgid "Select pages for hide banner"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:72
+msgid "Default Banner Image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:74
+msgid "Upload default banner image for your Website. Default will be blank."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:74
+msgid "(Note:Only Display Banner Style Second & Third)"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:79
+msgid "Select Banner Style"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:80
+msgid "Select the style that best fits your needs."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:112
+msgid "Display Banner on inner Pages"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:114, ../geritcht/inc/Redux_Framework/Options/Banner.php:125, ../geritcht/inc/Redux_Framework/Options/Banner.php:141, ../geritcht/inc/Redux_Framework/Options/Footer.php:44, ../geritcht/inc/Redux_Framework/Options/Footer.php:76, ../geritcht/inc/Redux_Framework/Options/Footer.php:107, ../geritcht/inc/Redux_Framework/Options/Footer.php:207, ../geritcht/inc/Redux_Framework/Options/General.php:95, ../geritcht/inc/Redux_Framework/Options/Loader.php:31
+msgid "Yes"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:115, ../geritcht/inc/Redux_Framework/Options/Banner.php:126, ../geritcht/inc/Redux_Framework/Options/Banner.php:142, ../geritcht/inc/Redux_Framework/Options/Footer.php:45, ../geritcht/inc/Redux_Framework/Options/Footer.php:77, ../geritcht/inc/Redux_Framework/Options/Footer.php:108, ../geritcht/inc/Redux_Framework/Options/Footer.php:208, ../geritcht/inc/Redux_Framework/Options/General.php:96, ../geritcht/inc/Redux_Framework/Options/Loader.php:32
+msgid "No"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:117, ../geritcht/inc/Redux_Framework/Options/Banner.php:133, ../geritcht/inc/Redux_Framework/Options/Banner.php:149, ../geritcht/inc/Redux_Framework/Options/Blog.php:68, ../geritcht/inc/Redux_Framework/Options/Blog.php:80, ../geritcht/inc/Redux_Framework/Options/Blog.php:113, ../geritcht/inc/Redux_Framework/Options/Footer.php:47, ../geritcht/inc/Redux_Framework/Options/Footer.php:110, ../geritcht/inc/Redux_Framework/Options/Footer.php:210, ../geritcht/inc/Redux_Framework/Options/General.php:98, ../geritcht/inc/Redux_Framework/Options/Header.php:285, ../geritcht/inc/Redux_Framework/Options/Header.php:342, ../geritcht/inc/Redux_Framework/Options/Loader.php:34
+msgid "yes"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:123
+msgid "Display Breadcrumbs on Banner"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:139
+msgid "Display Breadcrumbs on Title"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:156
+msgid "Select Breadcrumbs Title Tag"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:177
+msgid "Set Title Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:191
+msgid "Banner Background Type"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:203, ../geritcht/inc/Redux_Framework/Options/General.php:63
+msgid "Set Body Image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:206, ../geritcht/inc/Redux_Framework/Options/General.php:66
+msgid "Upload Image for your body."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:213, ../geritcht/inc/Redux_Framework/Options/Header.php:111, ../geritcht/inc/Redux_Framework/Options/Header.php:363
+msgid "Set Background Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:222
+msgid "Background Opacity Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:226
+msgid "Select this option for Background Opacity Color."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:239
+msgid "Background Gradient Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Banner.php:241
+msgid "Choose body Gradient background color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:21
+msgid "Blog"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:28
+msgid "General Blogs"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:31
+msgid "This section contains options for blog."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:38
+msgid "Blog Page Default Banner Image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:41, ../geritcht/inc/Redux_Framework/Options/FourZeroFour.php:37
+msgid "Upload banner image for your Website. Otherwise blank field will be displayed in place of this section."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:41
+msgid "(Note:Only Display Banner Style Second & Third in Page Banner Setting)"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:47
+msgid "Blog page Setting"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:48
+msgid "<br />Choose among these structures (Right Sidebar, Left Sidebar, 1column, 2column and 3column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:50
+msgid "One Columns"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:51
+msgid "Two Columns"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:52
+msgid "Three Columns"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:53, ../geritcht/inc/Redux_Framework/Options/Blog.php:98, ../geritcht/inc/Redux_Framework/Options/Page.php:32
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:54, ../geritcht/inc/Redux_Framework/Options/Blog.php:99, ../geritcht/inc/Redux_Framework/Options/Page.php:33
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:62
+msgid "Previous/Next Pagination"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:63
+msgid "Turn on to display the previous/next post pagination for blog page."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:65, ../geritcht/inc/Redux_Framework/Options/Blog.php:77, ../geritcht/inc/Redux_Framework/Options/Blog.php:110, ../geritcht/inc/Redux_Framework/Options/Header.php:282, ../geritcht/inc/Redux_Framework/Options/Header.php:339
+msgid "On"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:66, ../geritcht/inc/Redux_Framework/Options/Blog.php:78, ../geritcht/inc/Redux_Framework/Options/Blog.php:111, ../geritcht/inc/Redux_Framework/Options/Header.php:283, ../geritcht/inc/Redux_Framework/Options/Header.php:340
+msgid "Off"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:74
+msgid "Featured Image on Blog Archive Page"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:75
+msgid "Turn on to display featured images on the blog or archive pages."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:86
+msgid "Blog Single Post"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:94
+msgid "Blog Single page Setting"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:95
+msgid "<br />Choose among these structures (Right Sidebar, Left Sidebar and 1column) for your blog section.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:97, ../geritcht/inc/Redux_Framework/Options/Page.php:31
+msgid "Full Width"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:107
+msgid "Comments"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Blog.php:108
+msgid "Turn on to display comments."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:21
+msgid "Color Attribute"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:24
+msgid "Change the default colors of your site."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:29
+msgid "Set Custom Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:40
+msgid "Set Primary Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:41
+msgid "Select primary accent color."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:50
+msgid "Set Secondary Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:51
+msgid "Select secondary complementing color."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:60
+msgid "Title Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:61
+msgid "Select default Title(Headings) color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:71
+msgid "Body Text Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Color.php:72
+msgid "Select default body text color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:25
+msgid "Footer"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:32
+msgid "Footer Image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:35, ../geritcht/inc/Redux_Framework/Options/Footer.php:98
+msgid "This section contains options for footer."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:41
+msgid "Display Footer Background Image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:42
+msgid "Display Footer Background Image On All page"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:53
+msgid "Footer Logo"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:55
+msgid "Upload Footer Logo for your Website."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:63
+msgid "Footer Background Image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:66
+msgid "Upload Footer image for your Website."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:73
+msgid "Change Footer Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:74
+msgid "Turn on to Change Footer Background Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:79
+msgid "0"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:85
+msgid "Choose Footer Background Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:95
+msgid "Footer Option"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:104
+msgid "Display Footer Top"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:105
+msgid "Display Footer Top On All page"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:116
+msgid "Footer Layout Type"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:118
+msgid "<br />Choose among these structures (1column, 2column and 3column) for your footer section.<br />To fill these column sections you should go to appearance > widget.<br />And add widgets as per your needs."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:120
+msgid "Footer Layout 1"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:121
+msgid "Footer Layout 2"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:122
+msgid "Footer Layout 3"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:123
+msgid "Footer Layout 4"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:124
+msgid "Footer Layout 5"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:132
+msgid "Select 1 Footer Alignment"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:145
+msgid "Select 2 Footer Alignment"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:158
+msgid "Select 3 Footer Alignment"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:171
+msgid "Select 4 Footer Alignment"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:184
+msgid "Select 5 Footer Alignment"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:197
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:205
+msgid "Display Copyrights"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:215
+msgid "Copyrights Alignment"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:229
+msgid "Copyrights Text"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Footer.php:230
+msgid "© 2021 geritcht. All Rights Reserved."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/FourZeroFour.php:27
+msgid "This section contains options for 404."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/FourZeroFour.php:34
+msgid "404 Page Default Banner Image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/FourZeroFour.php:43
+msgid "404 Page Title"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/FourZeroFour.php:49
+msgid "404 Page Description"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:20
+msgid "General"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:27
+msgid "Body Layout"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:39
+msgid "Grid Container Width"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:40
+msgid "Adjust Your Site Container Width With Help Of Above Option."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:49
+msgid "Body Set Option"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:50
+msgid "Select this option for body color or image of the theme."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:72
+msgid "Set Body Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:73
+msgid "Choose Body Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:84
+msgid "Back to Top"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:92
+msgid "\"Back to top\" Button"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/General.php:93
+msgid "Turn on to show \"Back to top\" button."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:44
+msgid "Header"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:51, ../geritcht/inc/Redux_Framework/Options/Header.php:60
+msgid "Header Layout"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:54
+msgid "This section contains options for Menu ."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:62, ../geritcht/inc/Redux_Framework/Options/Header.php:85, ../geritcht/inc/Redux_Framework/Options/Header.php:100, ../geritcht/inc/Redux_Framework/Options/Header.php:136, ../geritcht/inc/Redux_Framework/Options/Header.php:167, ../geritcht/inc/Redux_Framework/Options/Header.php:221, ../geritcht/inc/Redux_Framework/Options/Header.php:305, ../geritcht/inc/Redux_Framework/Options/Header.php:352, ../geritcht/inc/Redux_Framework/Options/Header.php:388, ../geritcht/inc/Redux_Framework/Options/Header.php:419
+msgid "Default"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:63, ../geritcht/inc/Redux_Framework/Options/Header.php:137, ../geritcht/inc/Redux_Framework/Options/Header.php:168, ../geritcht/inc/Redux_Framework/Options/Header.php:222, ../geritcht/inc/Redux_Framework/Options/Header.php:306, ../geritcht/inc/Redux_Framework/Options/Header.php:389, ../geritcht/inc/Redux_Framework/Options/Header.php:420
+msgid "Custom"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:71
+msgid "Header container"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:73
+msgid "full width"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:74
+msgid "Container"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:83
+msgid "Header Position"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:86
+msgid "Over"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:97, ../geritcht/inc/Redux_Framework/Options/Header.php:349
+msgid "Background"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:98
+msgid "Select the variation for header background"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:101, ../geritcht/inc/Redux_Framework/Options/Header.php:353
+msgid "Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:102, ../geritcht/inc/Redux_Framework/Options/Header.php:354
+msgid "Image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:103, ../geritcht/inc/Redux_Framework/Options/Header.php:355
+msgid "Transparent"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:105, ../geritcht/inc/Redux_Framework/Options/Header.php:139, ../geritcht/inc/Redux_Framework/Options/Header.php:170, ../geritcht/inc/Redux_Framework/Options/Header.php:308, ../geritcht/inc/Redux_Framework/Options/Header.php:357, ../geritcht/inc/Redux_Framework/Options/Header.php:391, ../geritcht/inc/Redux_Framework/Options/Header.php:422
+msgid "default"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:121, ../geritcht/inc/Redux_Framework/Options/Header.php:373
+msgid "Upload Image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:124
+msgid "Upload background image for header."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:133, ../geritcht/inc/Redux_Framework/Options/Header.php:385
+msgid "Menu Color Options"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:134
+msgid "Select Menu color ."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:145
+msgid "Menu Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:155
+msgid "Menu Hover Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:164, ../geritcht/inc/Redux_Framework/Options/Header.php:415
+msgid "Submenu Color Options"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:165
+msgid "Select submenu color."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:176, ../geritcht/inc/Redux_Framework/Options/Header.php:428
+msgid "Submenu Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:186, ../geritcht/inc/Redux_Framework/Options/Header.php:438
+msgid "Submenu Hover Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:195, ../geritcht/inc/Redux_Framework/Options/Header.php:447
+msgid "Submenu Background Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:204, ../geritcht/inc/Redux_Framework/Options/Header.php:456
+msgid "Submenu Background Hover Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:218
+msgid "Burger Menu"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:219
+msgid "Select color for burger Menu"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:230
+msgid "Toggle Icon color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:239
+msgid "Model Background color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:248, ../geritcht/inc/Redux_Framework/Options/Header.php:397
+msgid "Menu color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:257, ../geritcht/inc/Redux_Framework/Options/Header.php:406
+msgid "Menu hover color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:266
+msgid "Sub Menu Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:279
+msgid "Display Search Icon"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:280
+msgid "Turn on to display the Search in header."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:291
+msgid "Search Text"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:295
+msgid "Enter Header Search Text ."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:302
+msgid "Search Icon"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:303
+msgid "Turn on to display the Search color in header."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:314
+msgid "Icon color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:316
+msgid "Select for button color options."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:327, ../geritcht/inc/Redux_Framework/Options/Header.php:336
+msgid "Sticky Header"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:330
+msgid "This section contains options for sticky header menu and background color."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:337
+msgid "Turn on to display sticky header."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:350
+msgid "Select the variation for sticky header background"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:376
+msgid "Upload background image for sticky header."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:386
+msgid "Select Menu color for sticky."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Header.php:416
+msgid "Select submenu color for sticky."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Loader.php:20
+msgid "Loader"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Loader.php:28
+msgid "geritcht Loader"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Loader.php:40
+msgid "Loader Background Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Loader.php:42
+msgid "Choose Loader Background Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Loader.php:51
+msgid "Add GIF image for loader"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Loader.php:55
+msgid "Upload Loader GIF image for your Website."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Loader.php:64
+msgid "Loader (Width/Height) Option"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Loader.php:65
+msgid "Allows you to choose width, height, and/or unit."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Loader.php:66
+msgid "You can enable or disable any piece of this field. Width, Height, or Units."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:20, ../geritcht/inc/Redux_Framework/Options/Logo.php:60, ../geritcht/inc/Redux_Framework/Options/Logo.php:69
+msgid "Logo"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:28
+msgid "Select Logo Type"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:29
+msgid "Select either Text or image for your Logo."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:40
+msgid "Logo Text"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:41
+msgid "Enter the text to be used instead of the logo image"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:43
+msgid "Please enter correct value"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:50
+msgid "Text Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:51
+msgid "Choose Text Color"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:73, ../geritcht/inc/Redux_Framework/Options/Logo.php:84
+msgid "Upload Logo image for your Website. Otherwise site title will be displayed in place of Logo."
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Logo.php:80
+msgid "Responsive Logo"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Page.php:20
+msgid "Page Settings"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Page.php:28
+msgid "Search page Setting"
+msgstr ""
+
+#: ../geritcht/inc/Redux_Framework/Options/Page.php:29
+msgid "<br />Choose among these structures (Right Sidebar, Left Sidebar and 1column) for your Search page.<br />To filling these column sections you should go to appearance > widget.<br />And put every widget that you want in these sections."
+msgstr ""
