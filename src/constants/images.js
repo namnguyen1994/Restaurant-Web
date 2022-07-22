@@ -10,7 +10,6 @@ import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
 import spoon from '../assets/spoon.svg';
-import welcome from '../assets/welcome.png';
 import findus from '../assets/findus.png';
 import laurels from '../assets/laurels.png';
 import award01 from '../assets/award01.png';
@@ -19,8 +18,9 @@ import award03 from '../assets/award03.png';
 import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
-import gericht from '../assets/gericht.png';
+import gotcha from '../assets/gotcha.png';
 import yukihira from '../assets/yukihira.png';
+import Y from '../assets/y.png';
 
 export default {
   bg,
@@ -30,12 +30,12 @@ export default {
   gallery02,
   gallery03,
   gallery04,
+  gotcha,
   knife,
   logo,
   menu,
   overlaybg,
   spoon,
-  welcome,
   findus,
   laurels,
   award01,
@@ -44,6 +44,6 @@ export default {
   award05,
   sign,
   quote,
-  gericht,
   yukihira,
+  Y,
 };
