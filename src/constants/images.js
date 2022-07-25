@@ -5,7 +5,6 @@ import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
 import gallery04 from '../assets/gallery04.png';
-import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
 import overlaybg from '../assets/overlaybg.png';
@@ -20,7 +19,8 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gotcha from '../assets/gotcha.png';
 import yukihira from '../assets/yukihira.png';
-import Y from '../assets/y.png';
+import knife from '../assets/knife.png';
+import background from '../assets/background.png'
 
 export default {
   bg,
@@ -31,7 +31,6 @@ export default {
   gallery03,
   gallery04,
   gotcha,
-  knife,
   logo,
   menu,
   overlaybg,
@@ -45,5 +44,6 @@ export default {
   sign,
   quote,
   yukihira,
-  Y,
+  knife,
+  background,
 };
