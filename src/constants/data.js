@@ -1,58 +1,58 @@
 import images from './images';
 
-const wines = [
+const rices = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Transforming Furikake Gohan',
+    price: '$10',
+    tags: 'Ingredients: Eggs, Chicken Wings, Scallion and Rice.',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Ojiya-Style Pacific Saury Takikomi Gohan',
+    price: '$14',
+    tags: 'Ingredients: Salted Pacific Saury, Parmesan Cheese, Crunchy Pickled Plum and Rice',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Chaliapin Steak Don',
+    price: '$15',
+    tags: 'Ingredients: Beef Sirloin, Onion, Umeboshi Paste and Rice',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Chicken Egg Tempura Don',
+    price: '$11',
+    tags: 'Ingredients: Eggs, Tempura, Mirin, Shiso Leaves and Rice',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Curry Risotto Omurice',
+    price: '$13',
+    tags: 'Ingredients: Beef, Chicken, Oyster Sauce, Curry Powder, and Rice',
   },
 ];
 
-const cocktails = [
+const noodles = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
-  },
-  {
-    title: "Dark 'N' Stormy",
+    title: 'Yukihira Style Barley Flour Soba',
     price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    tags: 'Ingredients: Barley Flour, Duck Breast, Scallion, Sichuan Peppers, and Buckwheat Flour',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: "Fake Dan Zai Noodle",
+    price: '$15',
+    tags: 'Ingredients: Shrimp, Dried Tuna Flakes, Star Anise, and Hujiao Bing Dough',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Joichiro Special Rich Ramen',
+    price: '$18',
+    tags: 'Ingredients: Shiitake Mushroom, Kelp, Lotus Root, Yuzu Citrus and Ramen Noodles',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Time Fuse Mapo Curry Noodles',
+    price: '$17',
+    tags: 'Ingredients: Curry Powder, Soft Tofu, Sichuan Peppercorns, and Ramen Noodles',
+  },
+  {
+    title: 'Soupe De Poisson Ramen',
+    price: '$20',
+    tags: 'Ingredients: Lobster, Shrimp, Eel, Flounder and Wide Noodle ',
   },
 ];
 
@@ -79,4 +79,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { rices, noodles, awards };
